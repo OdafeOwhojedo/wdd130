@@ -31,7 +31,7 @@ nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a{
+.social-media a{
     text-decoration: none;
 }
 .hero{
@@ -65,7 +65,93 @@ article{
     color: white;
     
 }
+nav a {
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 1rem; 
+    font-weight: 700; 
+    padding: 5px; 
+
+}
+h2{
+    text-align: center;
+}
+
 .hero article img{
     float: right;
     width: 125px;
 }
+.header-grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+}
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adventures {
+  padding: 1rem;
+}
+
+.adventures p {
+  margin-bottom: 20rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image-row figure {
+  flex: 1 1 calc(20% - 1rem); /* 5 in a row with spacing */
+  margin: 0;
+  text-align: center;
+}
+
+.image-row img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.image-row figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between; /* paragraph left, nav right */
+  align-items: center;            /* vertical centering */
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0; /* reset default paragraph margin */
+}
+
+footer nav {
+  display: flex;   /* put the links side by side */
+  gap: 1rem;       /* space between the links/images */
+}
+
+footer nav a {
+  display: flex;   /* ensures images inside align properly */
+  align-items: center;
+}
+
+
+
+
