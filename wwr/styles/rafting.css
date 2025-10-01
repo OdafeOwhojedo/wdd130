@@ -151,6 +151,25 @@ footer nav a {
   display: flex;   /* ensures images inside align properly */
   align-items: center;
 }
+.inline-img {
+  width: 10px;   /* adjust size */
+  height: 10px
+  vertical-align: middle; /* keeps image aligned with the middle of text */
+}
+.wrap-image {
+  float: none;          /* pushes the image to the left */
+  margin: 0 10px 10px 0; /* adds spacing around the image */
+  width: 150px;         /* adjust as needed */
+  height: auto;
+}
+.center-wrap {
+  float: left;                /* lets text flow around */
+  shape-outside: circle(50%); /* defines wrapping shape (circle around the image) */
+  clip-path: circle(50%);     /* clips the actual image to the same shape */
+  width: 200px;               /* adjust size */
+  height: 200px;              /* must set height for shape-outside to work */
+  margin: 0 20px;             /* space around image */
+}
 
 
 
