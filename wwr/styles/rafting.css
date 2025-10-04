@@ -247,6 +247,11 @@ iframe{
   
     color: #fff;
 }
+iframe-map{
+  height: 300;
+  width: 400;
+  border: 0;
+}
 
 
 
