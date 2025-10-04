@@ -154,7 +154,7 @@ footer nav a {
 }
 .inline-img {
   width: 10px;   /* adjust size */
-  height: 10px
+  height: 10px;
   vertical-align: middle;
    /* keeps image aligned with the middle of text */
 }
