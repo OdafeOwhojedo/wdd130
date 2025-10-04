@@ -247,10 +247,14 @@ iframe{
   
     color: #fff;
 }
-iframe-map{
+#iframe-map{
   height: 300px;
   width: 400px;
   border: 0;
+}
+#button{
+  background-color: grey;
+  color: black;
 }
 
 
