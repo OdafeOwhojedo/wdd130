@@ -165,8 +165,7 @@ footer nav a {
   height: auto;
 }
 .center-wrap {
-  float: left; 
-  /* shape-outside: circle(50%);                */
+  float: left;                
   clip-path: circle(50%);     /* clips the actual image to the same shape */
   width: 200px;               /* adjust size */
   height: 200px;              /* must set height for shape-outside to work */
