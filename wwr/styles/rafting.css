@@ -137,6 +137,8 @@ footer {
   justify-content: space-between; /* paragraph left, nav right */
   align-items: center;            /* vertical centering */
   padding: 1rem;
+  background-color: var(--accent1-color);
+  color: white;
 }
 
 footer p {
