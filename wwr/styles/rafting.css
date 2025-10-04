@@ -166,7 +166,7 @@ footer nav a {
 }
 .center-wrap {
   float: left; 
-  shape-outside: circle(50%);               /* lets text flow around */ /* defines wrapping shape (circle around the image) */
+  /* shape-outside: circle(50%);                */
   clip-path: circle(50%);     /* clips the actual image to the same shape */
   width: 200px;               /* adjust size */
   height: 200px;              /* must set height for shape-outside to work */
