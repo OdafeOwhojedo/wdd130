@@ -381,5 +381,49 @@ feature h3 {
 .index-hero-text h2 {
   font-size: 2.5rem;
 }
-
+.newsletter{
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #e9f3f8;
+}
+.newsletter form{
+  margin-top: 1rem;
+}
+.newsletter input{
+  padding: 0.6rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.newsletter button{
+  background: #006994;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+}
+.common-content{
+  text-align: center;
+  padding: 3rem 2rem;
+  background: white;
+}
+.trip-table{
+  padding: 3rem;
+  background: #f4f8fb;
+  text-align: center;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th, td {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+}
+th{
+  background: #006994;
+  color: white;
+}
 
